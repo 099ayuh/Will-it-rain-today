@@ -46,6 +46,15 @@ body {
     padding: 2rem 0;
 }
 
+.nav-item a{
+    font-weight: bolder;
+    color: white;
+}
+
+.nav-item a:hover{
+    color: #009ad8;
+}
+
 .navbar a {
     color: #fff;
     font-size: 1.8rem;
@@ -60,7 +69,11 @@ body {
 }
 
 .logo-name {
-    color: var(--main-color);
+    font-weight: 900;
+}
+
+.logo-name:hover {
+    color: #AF40FF;
 }
 
 .fa-snowflake {
