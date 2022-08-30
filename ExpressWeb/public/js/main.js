@@ -58,7 +58,7 @@ const getInfo = async (event) => {
         }
         catch (err) {
             console.log(err)
-            City_Name.innerText = `Please Enter the City name Properly`;
+            City_Name.innerText = `Please Enter the City Name Properly or Check Your Internet Connection Properly`;
             datahide.classList.add('data_hide');
         }
     }
