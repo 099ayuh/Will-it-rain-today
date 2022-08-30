@@ -71,9 +71,9 @@ body {
 
 .hamburgur {
     /* background-color: gray; */
-    position: fixed;
+    position: absolute;
     top: 12px;
-    right: 23px;
+    right: -13px;
 }
 
 .navbar-toggler:focus{
