@@ -31,7 +31,9 @@ const getInfo = async (event) => {
             temp_real_val.innerText = `${Math.trunc(arrData[0].main.temp)}`;
             // temp_status.innerText = arrData[0].weather[0].main;
             console.log(temp_mood);
-            if (temp_mood == "Clear") {
+            const iconURL = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+            temp_status.innerHTML = `<img src='${iconURL}' style="box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; border-radius:2rem; background-color:gray; width="70px"; height="70px";"/>`;
+            /*if (temp_mood == "Clear") {
                 console.log("Clear")
                 temp_status.innerHTML = `<i class="fas fa-sun" style="color : #eccc68;"></i>`
             } else if (temp_mood == "Clouds") {
@@ -49,7 +51,7 @@ const getInfo = async (event) => {
             } else {
                 console.log("Else")
                 temp_status.innerHTML = `<i class="fas fa-cloud" style="color : #f1f2f6;"></i>`
-            }
+            }*/
 
             datahide.classList.remove('data_hide');
 
