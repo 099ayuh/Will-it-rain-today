@@ -26,4 +26,5 @@ Here are some screenshots -
 
 # Get a <a href="https://is-weather-fine.herokuapp.com/">Live Demo</a> Here 😊😊
 
-### That's All <> Thank You </> # Happy Coading 👨‍💻
+### That's All <> Thank You </>  # Happy Coding 👨‍💻
+
