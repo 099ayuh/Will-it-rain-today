@@ -28,7 +28,7 @@ const getInfo = async (event) => {
             console.log(arrData);
             const temp_mood = arrData[0].weather[0].main;
             City_Name.innerText = `${arrData[0].name} , ${arrData[0].sys.country}  (${temp_mood})`;
-            temp_real_val.innerText = `${Math.trunc(arrData[0].main.temp)}`;
+            temp_real_val.innerText = `${Math.round(arrData[0].main.temp)}`;
             // temp_status.innerText = arrData[0].weather[0].main;
             console.log(temp_mood);
             const iconURL = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
