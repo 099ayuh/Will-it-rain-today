@@ -33,25 +33,8 @@ const getInfo = async (event) => {
             console.log(temp_mood);
             const iconURL = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
             temp_status.innerHTML = `<img src='${iconURL}' style="box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; border-radius:2rem; background-color:gray; width="70px"; height="70px";"/>`;
-            /*if (temp_mood == "Clear") {
-                console.log("Clear")
-                temp_status.innerHTML = `<i class="fas fa-sun" style="color : #eccc68;"></i>`
-            } else if (temp_mood == "Clouds") {
-                console.log("Clouds")
-                temp_status.innerHTML = `<i class="fas fa-cloud-sun" style="color : #968e4b;"></i>`
-            } else if (temp_mood == "Rain") {
-                console.log("Rain")
-                temp_status.innerHTML = `<i class="fa-solid fa-cloud-showers-heavy" style="color : skyblue;"></i>`
-            } else if (temp_mood == "Thunderstorm") {
-                console.log("Thunderstrom")
-                temp_status.innerHTML = `<i class="fa-solid fa-cloud-bolt" style="color : gray;"></i>`
-            } else if (temp_mood == "Haze") {
-                console.log("Haze")
-                temp_status.innerHTML = `<img src="https://img.icons8.com/fluency/48/000000/foggy-night-1.png" width="70px" height="70.4px"/>`;
-            } else {
-                console.log("Else")
-                temp_status.innerHTML = `<i class="fas fa-cloud" style="color : #f1f2f6;"></i>`
-            }*/
+            document.querySelector(".Dynamic_Img").style.backgroundImage =
+                `url('https://source.unsplash.com/900x900/?"nature-${temp_mood}"')`;
 
             datahide.classList.remove('data_hide');
 
