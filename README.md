@@ -13,10 +13,15 @@ obsessed with p5.js,
 Here are some screenshots -
 
 # HOME PAGE
-![image](https://user-images.githubusercontent.com/83543768/187452197-92f49bf6-1b7c-4dcd-85e8-febadaf1e94c.png)
+![image](https://user-images.githubusercontent.com/83543768/188124363-491e2f20-ee84-4211-aa0c-8c3c02baa3a5.png)
 
 # WEATHER PAGE
-![image](https://user-images.githubusercontent.com/83543768/187452534-f4809227-6bd1-48d4-8bf8-40f727e91b2f.png)
+![image](https://user-images.githubusercontent.com/83543768/188124774-450f93f3-638d-407f-8c73-868a59e15ea4.png)
+
+# MOBILE VIEW
+![image](https://user-images.githubusercontent.com/83543768/188124629-77d8e23b-6cb6-47af-b509-11a1c352d5df.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![image](https://user-images.githubusercontent.com/83543768/188124933-ff676391-4a07-477c-8dea-15c614710f29.png)
+
+
 
 
 # Technologies i used in it 👨‍💻
