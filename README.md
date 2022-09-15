@@ -2,11 +2,10 @@
 ## This Website Simply tells you the Weather of your Specified contry
 ## It Fetches The Wheater Report From OpenWeather API and Shows In An Interesting Manner.
 
-I could not deploy it as it has an HTTP API call and github pages enforces HTTPS. However, 
 I was learning about working with data and APIs from Daniel Shiffman's youtube channel, aka 
 The Coading Train,
-There I Learn About How The Open Weather API Gives The Weather Data.
-How To Fetch and Display the Data Into My UI.....
+There I Learn About How The Open_Weather API Gives The Weather Data.
+How To Fetch that data and Display the Into My UI.....
 He did the basic stuff and gave a challenge of doing it in more interesting way. He is also 
 obsessed with p5.js,
 
